@@ -1,0 +1,129 @@
+.container {
+    
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  .order_infor{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: white;
+    margin: 0px 200px;
+    padding: 39px;
+  }
+  .left-section {
+    width: 45%;
+  }
+  
+  .right-section {
+    width: 45%;
+    margin-left: 5%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  .checkbox-group {
+    margin-bottom: 10px;
+  }
+  
+  .payment {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-info {
+    margin-top: 30px;
+  }
+  
+  .product-item {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .item-details {
+    margin-left: 20px;
+  }
+  
+  .order-summary {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  .order-summary p {
+    display: flex;
+    justify-content: space-between;
+  }
+  h2 {
+    font-size: 24px;
+    color : red;
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  .form-group > div{
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  .product-info table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-info th,
+  .product-info td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .product-info th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+  }
+  
+  .product-info tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .product-info tbody tr:hover {
+    background-color: #ddd;
+  }
+  .flex-align{
+    display: flex;
+    justify-content: space-between;
+  }
+  .payment{
+    width: 100%;
+    background-color: #f04e47 !important;
+    margin-top: 20px;
+  }
+  .navbar ul{
+      height: 40px !important;
+  }

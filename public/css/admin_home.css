@@ -1,0 +1,31 @@
+.content_home{
+    margin-top: 30px;
+    margin-left: 270px;
+}
+.home_index{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.home_label{
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.left{
+    padding: 20px;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 30px;
+}
+.right{
+    padding-left:10px;
+    font-size: 20px;
+}

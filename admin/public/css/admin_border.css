@@ -1,0 +1,64 @@
+.content_left{
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.label_left{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+th {
+    background-color: #f2f2f2;
+  }
+
+td:last-child{
+    /* display: flex;
+    justify-content: space-around; */
+    border-top: none;
+    border-left: none;
+    width: 220px;
+}
+th:last-child{
+    width: 100px;
+}
+tr td a button{
+    padding: 5px;
+    width: 60px;
+    margin: 0px 5px !important;
+}
+.btn_add a button{
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 100px;
+    float: right;
+  }
+.add:hover{
+    cursor: pointer;
+    background-color: green;
+    color: #f2f2f2;
+    font-weight: 600;
+}
+.update:hover{
+    cursor: pointer;
+    background-color: rgb(255, 217, 0);
+    color: #525050;
+    font-weight: 600;
+}
+.delete:hover{
+    cursor: pointer;
+    background-color: red;
+    color: #f2f2f2;
+    font-weight: 600;
+}
